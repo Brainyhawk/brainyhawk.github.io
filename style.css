@@ -1,12 +1,53 @@
-.Welcome {
-	color: #778da9;
-	position: absolute;
-	top: 2.5%;
-	width: 100%;
-	text-align: center;
-	padding: 0; 
-    margin: 0;
-    font-size: 48px;
+body {
+  background-color: lightblue;
 }
 
-body {background-color: #0d1b2a;}
+@font-face {
+    font-family: Console;
+    src: url('C:/Personal Website/Font/Console.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.WoodPanel
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  height: 100%;
+}
+
+.Screen
+{
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 45%;
+  width: 27%;
+  z-index: 501;
+}
+
+.Para
+{
+  position: absolute;
+  font-family: Console;
+  font-size: 100%;
+  top: 24%;
+  width: 14.5%;
+  height: 40%;
+  z-index: 1000;
+  left: 26%;
+  color: #008000;
+}
+
+.Desk
+{
+  position: absolute;
+  width: 120%;
+  z-index: 500;
+  left: -10%;
+  top: 42.5%;
+}
